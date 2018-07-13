@@ -3,6 +3,9 @@
 // }
 
 // makepizza( "onoin", "thin");
+// ------------------------------------------------------------------------------------------------------
+
+
 
 // var makepizza = function( topping , type){
 //     return "I love " + type + " crust pizza with " + topping + " topping on it " ;
@@ -10,6 +13,8 @@
 
 //     var custompizza =makepizza( "tomato", "hand tosed");
 //    document.write(custompizza);
+// -----------------------------------------------------------------------------------------------------------
+
 
 //    function go(){
 //        alert("hello");
@@ -18,12 +23,16 @@
 
 //    go();
 //    go();
+// ------------------------------------------------------------------------------------------------------
+
 
 //    function fullname( firstname, lastname){
 //        alert(firstname);
 //        alert(lastname);
 //     }
 //     fullname("aaaa", "bbbb");
+
+// -----------------------------------------------------------------------------------------------------------
 
 
 // var firstname = "aaaa";
@@ -35,13 +44,14 @@
 // };
 //      fullname();
 
-
+// --------------------------------------------------------------------------------------------------------
 //   var sum =   function(a,b){
 //         return a+b
 //     };
 
 //    var addno = sum(4,5);
 // alert(addno);
+// ----------------------------------------------------------------------------------------------------
 
 // var food = prompt("myFavoritFood");
 // alert(food);
@@ -60,13 +70,39 @@ for (let i = 0; i <= 100; i++) {
     if (currentnumber % 5 === 0 && currentnumber % 7 === 0) {
         document.write("chickenMonkey!");
     }
-    else if(currentnumber % 5 === 0) {
+    else if (currentnumber % 5 === 0) {
         document.write("chicken!");
-    } else if(currentnumber % 7 === 0) {
+    } else if (currentnumber % 7 === 0) {
         document.write("Monkey!");
     }
-     else {
+    else {
         document.write(currentnumber);
     }
+
 }
 
+
+// ----------------------carSpeedExample----------------------------------
+
+// function go(direction,speed){
+
+// document.write( "The car is moving in " + direction +" at "+ speed + " mph");
+
+// }
+// go(forward, 25);
+
+// -----------------------CarSpeedExample2---------------------------------
+// function go(direction,speed){
+
+//     if(speed > 75){
+//         document.write( "The car is moving in " + direction +" at "+ speed + " mph "+ "slow down")
+//     }
+//     else{
+//         document.write( "The car is moving in " + direction +" at "+ speed + " mph "+ " you are good")
+//     }
+
+    
+//     }
+//     go(
+//         "forward", 80
+//     );
